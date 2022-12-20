@@ -14,7 +14,7 @@ include("koneksi.php");
 $q="";
 if (isset($_GET['submit']) && !empty($_GET['q'])) {
     $q = $_GET['q'];
-    $sql_where = "WHERE nama LIKE '{$q}%'";
+    $sql_where = " WHERE nama LIKE '{$q}%'";
 }
 $sql = 'SELECT * FROM data_barang';
 if (isset($sql_where))
