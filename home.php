@@ -48,7 +48,6 @@ $result = mysqli_query($conn, $sql);
         <h1>Data Barang</h1>
         <div class="main">
 <?php
-echo '<a href="tambah.php" class="btn btn-large">Tambah Barang</a>';
 ?>
 <form action="" method="get">
     <label for="q">Cari data: </label>
